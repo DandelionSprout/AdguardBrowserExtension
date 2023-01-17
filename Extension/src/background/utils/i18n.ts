@@ -39,7 +39,7 @@ export class I18n {
 
         const [localePart] = lang.split('_');
 
-        if (localePart && I18n.isIncludesLocale(locales, locale)) {
+        if (localePart && I18n.isIncludesLocale(locales, localePart)) {
             return localePart;
         }
 
